@@ -1,4 +1,4 @@
-print('Olá! Sou um programa chamado S.I.G.H.T. © desenvolvido pelo Canário#0001 para calcular o abastecimento de um país.\nInforme segundo o que for sendo pedido, se não tiver tal armamento, coloque 0.\nNão use vírgulas comigo, coloque pontos no lugar (exemplo, 35,3 vira 35.3. Se for um número com mais de 3 dígitos (tipo 40.264) apenas não coloque o ponto (neste caso, 40.264 vira 40264)).\nTodos os valores devem estar na equivalência, caso contrário o resultado estará errado.')
+print('Olá! Sou um programa chamado S.I.G.H.T. © desenvolvido pelo Canário#5182 para calcular o abastecimento de um país.\nInforme segundo o que for sendo pedido, se não tiver tal armamento, coloque 0.\nNão use vírgulas comigo, coloque pontos no lugar (exemplo, 35,3 vira 35.3. Se for um número com mais de 3 dígitos (tipo 40.264) apenas não coloque o ponto (neste caso, 40.264 vira 40264)).\nTodos os valores devem estar na equivalência, caso contrário o resultado estará errado.')
 IMV = float(input('Digite quantos IMVs ou MWVse MRAPs você tem: '))
 ATGM = float(input('Digite quantos ATGMs portáteis você tem: '))
 MLRS = float(input('Digite quantos MLRS você tem: '))

@@ -1,14 +1,13 @@
-print('Olá! Sou um programa para calcular a tabuada de qualquer número inteiro que você inserir.\nPs: Não use vírgulas comigo! Ao invés disso, use pontos!')
+#!/usr/bin/env python3
+def times(num, vezes):
+    if vezes < 10:
+        print('{} x {:2} = {}'.format(num, vezes, num*vezes))
+    else:
+        print(f'{num} x {vezes} = {num*vezes}')
+#
+print('Olá! Sou um programa para calcular a tabuada de qualquer número inteiro que você inserir.')
 num = int(input('Digite o número de sua escolha: '))
 print('-'*15)
-print('{} x {:2} = {}'.format(num,1,num*1))
-print('{} x {:2} = {}'.format(num,2,num*2))
-print('{} x {:2} = {}'.format(num,3,num*3))
-print('{} x {:2} = {}'.format(num,4,num*4))
-print('{} x {:2} = {}'.format(num,5,num*5))
-print('{} x {:2} = {}'.format(num,6,num*6))
-print('{} x {:2} = {}'.format(num,7,num*7))
-print('{} x {:2} = {}'.format(num,8,num*8))
-print('{} x {:2} = {}'.format(num,9,num*9))
-print('{} x {} = {}'.format(num,10,num*10))
+for i in range(11):
+    times(num, i)
 print('-'*15)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 def cToF(temp):
-    return (temp*9/5)+3
+    return (temp*9/5)+32
 
 def fToC(temp):
     return (temp-32)*5/9
